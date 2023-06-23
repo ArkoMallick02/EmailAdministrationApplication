@@ -25,7 +25,7 @@ import java.util.Scanner;
       
        
        // Combine elements to generate Email
-       email = firstName.toLowerCase() + " " + lastName.toLowerCase() + "@" + department + companySuffix;
+       email = firstName.toLowerCase() + "" + lastName.toLowerCase() + "@" + department + companySuffix;
       
        
    }
